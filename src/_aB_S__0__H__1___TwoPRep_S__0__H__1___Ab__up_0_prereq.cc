@@ -8,8 +8,8 @@
 #include <OSVRRP1InBra_aB_s__0__k__1___TwoPRep_s__0__s__1___Ab__up_0.h>
 #include <OSVRRP1InBra_aB_s__0__l__1___TwoPRep_s__0__s__1___Ab__up_0.h>
 #include <OSVRRP1InBra_aB_s__0__m__1___TwoPRep_s__0__s__1___Ab__up_0.h>
-#include <OSVRRP1InBra_aB_s__0__n__1___TwoPRep_s__0__s__1___Ab__up_0.h>
 #include <OSVRRP1InBra_aB_s__0__p__1___TwoPRep_s__0__s__1___Ab__up_0.h>
+#include <OSVRRP1InBra_aB_s__0__ps__1___TwoPRep_s__0__s__1___Ab__up_0.h>
 
 extern "C" {
 void _aB_S__0__H__1___TwoPRep_S__0__H__1___Ab__up_0_prereq(const Libint_t* inteval, LIBINT2_REALTYPE* parent_stack) {
@@ -80,7 +80,7 @@ OSVRRP1InBra_aB_s__0__i__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hs
 OSVRRP1InBra_aB_s__0__k__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hsi*36+760)*1+lsi)*1]), &(stack[((hsi*28+651)*1+lsi)*1]), &(stack[((hsi*28+796)*1+lsi)*1]), &(stack[((hsi*21+521)*1+lsi)*1]), &(stack[((hsi*21+374)*1+lsi)*1]));
 OSVRRP1InBra_aB_s__0__l__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hsi*45+487)*1+lsi)*1]), &(stack[((hsi*36+679)*1+lsi)*1]), &(stack[((hsi*36+760)*1+lsi)*1]), &(stack[((hsi*28+542)*1+lsi)*1]), &(stack[((hsi*28+651)*1+lsi)*1]));
 OSVRRP1InBra_aB_s__0__m__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hsi*55+760)*1+lsi)*1]), &(stack[((hsi*45+715)*1+lsi)*1]), &(stack[((hsi*45+487)*1+lsi)*1]), &(stack[((hsi*36+570)*1+lsi)*1]), &(stack[((hsi*36+679)*1+lsi)*1]));
-OSVRRP1InBra_aB_s__0__n__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hsi*66+487)*1+lsi)*1]), &(stack[((hsi*55+432)*1+lsi)*1]), &(stack[((hsi*55+760)*1+lsi)*1]), &(stack[((hsi*45+606)*1+lsi)*1]), &(stack[((hsi*45+715)*1+lsi)*1]));
+OSVRRP1InBra_aB_s__0__ps__1___TwoPRep_s__0__s__1___Ab__up_0(inteval, &(stack[((hsi*66+487)*1+lsi)*1]), &(stack[((hsi*55+432)*1+lsi)*1]), &(stack[((hsi*55+760)*1+lsi)*1]), &(stack[((hsi*45+606)*1+lsi)*1]), &(stack[((hsi*45+715)*1+lsi)*1]));
 _libint2_static_api_inc1_short_(&(stack[((hsi*66+185)*1+lsi)*1]),&(stack[((hsi*66+487)*1+lsi)*1]),66);
 }
 }
@@ -88,7 +88,7 @@ _libint2_static_api_inc1_short_(&(stack[((hsi*66+185)*1+lsi)*1]),&(stack[((hsi*6
 const int hsi = 0;
 const int lsi = 0;
 const int vi = 0;
-/** Number of flops = 0 */
+/** Number of flops = 251 */
 }
 
 };

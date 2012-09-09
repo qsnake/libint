@@ -1,7 +1,7 @@
 #include <libint2.h>
-#include <HRRPart1bra0ket0HD.h>
-#include <HRRPart1bra0ket0HP.h>
-#include <HRRPart1bra0ket0IP.h>
+#include <HRRPart1bra0ket0hd.h>
+#include <HRRPart1bra0ket0hp.h>
+#include <HRRPart1bra0ket0ip.h>
 #include <_aB_G__0__H__1___TwoPRep_S__0__D__1___Ab__up_0_prereq.h>
 
 extern "C" {
@@ -20,9 +20,9 @@ const int hsi = 0;
 const int lsi = 0;
 {
 const int vi = 0;
-HRRPart1bra0ket0HP(inteval, &(stack[((hsi*945+3165)*1+lsi)*1]), &(stack[((hsi*420+315)*1+lsi)*1]), &(stack[((hsi*315+0)*1+lsi)*1]),15);
-HRRPart1bra0ket0IP(inteval, &(stack[((hsi*1260+4110)*1+lsi)*1]), &(stack[((hsi*540+735)*1+lsi)*1]), &(stack[((hsi*420+315)*1+lsi)*1]),15);
-HRRPart1bra0ket0HD(inteval, &(stack[((hsi*1890+1275)*1+lsi)*1]), &(stack[((hsi*1260+4110)*1+lsi)*1]), &(stack[((hsi*945+3165)*1+lsi)*1]),15);
+HRRPart1bra0ket0hp(inteval, &(stack[((hsi*945+3165)*1+lsi)*1]), &(stack[((hsi*420+315)*1+lsi)*1]), &(stack[((hsi*315+0)*1+lsi)*1]),15);
+HRRPart1bra0ket0ip(inteval, &(stack[((hsi*1260+4110)*1+lsi)*1]), &(stack[((hsi*540+735)*1+lsi)*1]), &(stack[((hsi*420+315)*1+lsi)*1]),15);
+HRRPart1bra0ket0hd(inteval, &(stack[((hsi*1890+1275)*1+lsi)*1]), &(stack[((hsi*1260+4110)*1+lsi)*1]), &(stack[((hsi*945+3165)*1+lsi)*1]),15);
 }
 }
 }
