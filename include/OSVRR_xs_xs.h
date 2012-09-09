@@ -96,7 +96,7 @@ namespace libint2 {
             }
           }
 #if LIBINT2_FLOP_COUNT
-          inteval->nflops += 8 * NcV;
+          inteval->nflops[0] += 8 * NcV;
 #endif
 
         }
@@ -108,7 +108,7 @@ namespace libint2 {
             }
           }
 #if LIBINT2_FLOP_COUNT
-          inteval->nflops += 3 * NcV;
+          inteval->nflops[0] += 3 * NcV;
 #endif
         }
 
@@ -133,7 +133,7 @@ namespace libint2 {
               tptr[v] += cxyz * inteval->oo2ze[v] * src4_ptr[v];
             }
 #if LIBINT2_FLOP_COUNT
-          inteval->nflops += 3 * veclen;
+          inteval->nflops[0] += 3 * veclen;
 #endif
             src4_ptr += veclen;
 
@@ -145,7 +145,7 @@ namespace libint2 {
       END_FOR_CART
 
       /** Number of flops = ??? */
-      //inteval->nflops = inteval->nflops + 222 * 1 * 1 * veclen;
+      //inteval->nflops[0] = inteval->nflops[0] + 222 * 1 * 1 * veclen;
 
     }
 

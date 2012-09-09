@@ -20,7 +20,7 @@ _libint2_static_api_inc1_short_(&(stack[((hsi*3+0)*1+lsi)*1]),&(stack[((hsi*3+3)
 const int hsi = 0;
 const int lsi = 0;
 const int vi = 0;
-/** Number of flops = 0 */
+/** Number of flops = 3 */
 }
 
 };

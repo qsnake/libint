@@ -3,8 +3,8 @@
 
 #include <cstddef>
 extern "C" {
-extern void (*libint2_build_default[6][6][6][6])(const Libint_t*);
-extern void (*libint2_build_eri[6][6][6][6])(const Libint_t*);
+extern void (*libint2_build_default[8][8][8][8])(const Libint_t*);
+extern void (*libint2_build_eri[8][8][8][8])(const Libint_t*);
 void libint2_static_init();
 void libint2_static_cleanup();
 void libint2_init_default(Libint_t* inteval, int max_am, LIBINT2_REALTYPE* buf);

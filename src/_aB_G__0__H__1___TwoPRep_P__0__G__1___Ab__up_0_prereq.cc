@@ -256,7 +256,7 @@ _libint2_static_api_inc1_short_(&(stack[((hsi*1155+5505)*1+lsi)*1]),&(stack[((hs
 const int hsi = 0;
 const int lsi = 0;
 const int vi = 0;
-/** Number of flops = 0 */
+/** Number of flops = 6660 */
 }
 
 };

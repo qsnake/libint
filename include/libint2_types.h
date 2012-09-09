@@ -28,6 +28,22 @@ LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_19[LIBINT2_MAX
 LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_1[LIBINT2_MAX_VECLEN];
 #define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_20 1
 LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_20[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_21 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_21[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_22 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_22[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_23 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_23[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_24 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_24[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_25 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_25[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_26 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_26[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_27 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_27[LIBINT2_MAX_VECLEN];
+#define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_28 1
+LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_28[LIBINT2_MAX_VECLEN];
 #define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_2 1
 LIBINT2_REALTYPE _aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_2[LIBINT2_MAX_VECLEN];
 #define LIBINT2_DEFINED__aB_s___0__s___1___TwoPRep_s___0__s___1___Ab__up_3 1
@@ -100,7 +116,7 @@ mutable LIBINT2_REALTYPE* targets[1];
 int veclen;
 #if LIBINT2_FLOP_COUNT
 /** FLOP counter. Libint must be configured with --enable-flop-counter to allow FLOP counting. It is user's reponsibility to set zero nflops before computing integrals. */
-mutable LIBINT2_UINT_LEAST64 nflops;
+mutable LIBINT2_UINT_LEAST64* nflops;
 #endif
 #if LIBINT2_ACCUM_INTS
 /** If libint was configured with --enable-accum-ints then the target integrals are accumulated. To zero out the targets automatically before the computation, set this to nonzero. */

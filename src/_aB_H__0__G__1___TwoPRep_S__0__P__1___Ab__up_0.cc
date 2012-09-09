@@ -1,5 +1,5 @@
 #include <libint2.h>
-#include <HRRPart1bra0ket0GP.h>
+#include <HRRPart1bra0ket0gp.h>
 #include <_aB_H__0__G__1___TwoPRep_S__0__P__1___Ab__up_0_prereq.h>
 
 extern "C" {
@@ -18,7 +18,7 @@ const int hsi = 0;
 const int lsi = 0;
 {
 const int vi = 0;
-HRRPart1bra0ket0GP(inteval, &(stack[((hsi*945+756)*1+lsi)*1]), &(stack[((hsi*441+315)*1+lsi)*1]), &(stack[((hsi*315+0)*1+lsi)*1]),21);
+HRRPart1bra0ket0gp(inteval, &(stack[((hsi*945+756)*1+lsi)*1]), &(stack[((hsi*441+315)*1+lsi)*1]), &(stack[((hsi*315+0)*1+lsi)*1]),21);
 }
 }
 }
